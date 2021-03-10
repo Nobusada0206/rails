@@ -2299,3 +2299,414 @@ Started GET "/attachments/7173cc5675fd45c093784f871c6b756c66c1f885/store/fill/30
 Cannot render console from 125.4.186.104! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
 Refile::App: [2021-03-10 00:20:46 +0000] GET "/7173cc5675fd45c093784f871c6b756c66c1f885/store/fill/300/300/42a698064c51e485203d3805342dece40a0583b56b21a696a47c421d01bc/image.jpeg" 200 64.3ms
 
+Started GET "/" for 125.4.186.104 at 2021-03-10 00:45:58 +0000
+Cannot render console from 125.4.186.104! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/railties-5.2.4.5/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/railties-5.2.4.5/lib/rails/templates/rails/welcome/index.html.erb (2.4ms)
+Completed 200 OK in 11ms (Views: 6.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/todolists" for 125.4.186.104 at 2021-03-10 00:46:05 +0000
+Cannot render console from 125.4.186.104! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by TodolistsController#index as HTML
+  Rendering todolists/index.html.erb within layouts/application
+  [1m[36mList Load (0.2ms)[0m  [1m[34mSELECT "lists".* FROM "lists"[0m
+  Rendered todolists/index.html.erb within layouts/application (23.6ms)
+Completed 200 OK in 234ms (Views: 231.1ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/todolists" for 125.4.186.104 at 2021-03-10 00:46:07 +0000
+Cannot render console from 125.4.186.104! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by TodolistsController#index as HTML
+  Rendering todolists/index.html.erb within layouts/application
+  [1m[36mList Load (0.2ms)[0m  [1m[34mSELECT "lists".* FROM "lists"[0m
+  Rendered todolists/index.html.erb within layouts/application (5.2ms)
+Completed 200 OK in 30ms (Views: 28.7ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/attachments/18cda5a2b3a6951b8c6a75556a248b55cba5cd48/store/fill/100/100/fa14747e177ec295c2f4344a3633d42fc16dcc1191d8e4b747502a8ca96a/image.jpeg" for 125.4.186.104 at 2021-03-10 00:46:07 +0000
+Cannot render console from 125.4.186.104! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Started GET "/attachments/c2fa436f86750488abfab41af917d24ba2392e68/store/fill/100/100/bdda8661dd5556fdda3a1c4fa9c9f9f0b591a0f595e628a242f736daa495/image.jpeg" for 125.4.186.104 at 2021-03-10 00:46:07 +0000
+Cannot render console from 125.4.186.104! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Started GET "/attachments/92b7bf59ad002e89ab926bd6c85c85f22492a46f/store/fill/100/100/0a301292a93363de4f4fe905d446f96d5f567308df5b0da9f9c6ec8a5d42/image.jpeg" for 125.4.186.104 at 2021-03-10 00:46:07 +0000
+Cannot render console from 125.4.186.104! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Started GET "/attachments/6e65dea89ee6c29b61a580f4a8c71722309147c6/store/fill/100/100/eafef6cc1571e750ca19273fcef14439d78398ce92df31d204d12303fcaa/image.jpeg" for 125.4.186.104 at 2021-03-10 00:46:07 +0000
+Cannot render console from 125.4.186.104! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Started GET "/attachments/ebb4e16e0cf3d489adf704a6a5a74812a7ba6155/store/fill/100/100/d4b40039d1d8053a69b53888bae9ef7cd5e225bb134d304456163efd4708/image.jpeg" for 125.4.186.104 at 2021-03-10 00:46:07 +0000
+Cannot render console from 125.4.186.104! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Refile::App: [2021-03-10 00:46:07 +0000] GET "/18cda5a2b3a6951b8c6a75556a248b55cba5cd48/store/fill/100/100/fa14747e177ec295c2f4344a3633d42fc16dcc1191d8e4b747502a8ca96a/image.jpeg" 200 263.2ms
+
+Refile::App: [2021-03-10 00:46:07 +0000] GET "/c2fa436f86750488abfab41af917d24ba2392e68/store/fill/100/100/bdda8661dd5556fdda3a1c4fa9c9f9f0b591a0f595e628a242f736daa495/image.jpeg" 200 262.1ms
+
+Started GET "/attachments/98634d31bb923ab5940b2c66ca500d3aaaf837ee/store/fill/100/100/af2b6cd238f67fb6c4c53e9d4455c192d1813caead9e9cfd5dcf43a0938a/image.jpeg" for 125.4.186.104 at 2021-03-10 00:46:07 +0000
+Cannot render console from 125.4.186.104! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Started GET "/attachments/8d468aa99a3e962190677e71d08cb1eb9884b2a1/store/fill/100/100/bc254f420ea4fb05d670ce8483eb49610578c84960a343dc56c6b5743a78/image.jpeg" for 125.4.186.104 at 2021-03-10 00:46:07 +0000
+Cannot render console from 125.4.186.104! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Refile::App: [2021-03-10 00:46:07 +0000] GET "/6e65dea89ee6c29b61a580f4a8c71722309147c6/store/fill/100/100/eafef6cc1571e750ca19273fcef14439d78398ce92df31d204d12303fcaa/image.jpeg" 200 239.8ms
+
+Started GET "/attachments/7b7cf05eeefa03b08b30c537bfed744574e97c05/store/fill/100/100/6c68d4555ea4f5fbe3a14f42e4db227ee81a6e2be38a632635c6101416b3/image.jpeg" for 125.4.186.104 at 2021-03-10 00:46:07 +0000
+Cannot render console from 125.4.186.104! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Refile::App: [2021-03-10 00:46:08 +0000] GET "/ebb4e16e0cf3d489adf704a6a5a74812a7ba6155/store/fill/100/100/d4b40039d1d8053a69b53888bae9ef7cd5e225bb134d304456163efd4708/image.jpeg" 200 333.9ms
+
+Started GET "/attachments/dc21ecae0bfb58f784fd4127aa1f5352a5027c4f/store/fill/100/100/d6219bbd83a828b5d006215b8f0a3d32c7c8a5753114bb6fd9f80ed01fe2/image.jpeg" for 125.4.186.104 at 2021-03-10 00:46:08 +0000
+Cannot render console from 125.4.186.104! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Refile::App: [2021-03-10 00:46:08 +0000] GET "/92b7bf59ad002e89ab926bd6c85c85f22492a46f/store/fill/100/100/0a301292a93363de4f4fe905d446f96d5f567308df5b0da9f9c6ec8a5d42/image.jpeg" 200 347.9ms
+
+Started GET "/attachments/3eb51228653c65362f06df63ad714bba415ce503/store/fill/100/100/66f0e92806d907e2f4cef05a651c028f4cd649d3049e19862d6c3541e2ca/image.jpeg" for 125.4.186.104 at 2021-03-10 00:46:08 +0000
+Cannot render console from 125.4.186.104! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Refile::App: [2021-03-10 00:46:08 +0000] GET "/98634d31bb923ab5940b2c66ca500d3aaaf837ee/store/fill/100/100/af2b6cd238f67fb6c4c53e9d4455c192d1813caead9e9cfd5dcf43a0938a/image.jpeg" 200 249.2ms
+
+Started GET "/attachments/bdc6334505f2034d6e32f154ec772ed76010e806/store/fill/100/100/01e597bc4fb895aa9d458931a2d5e4707768ec4013dff96fd0366edd712d/image.jpeg" for 125.4.186.104 at 2021-03-10 00:46:08 +0000
+Cannot render console from 125.4.186.104! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Refile::App: [2021-03-10 00:46:08 +0000] GET "/8d468aa99a3e962190677e71d08cb1eb9884b2a1/store/fill/100/100/bc254f420ea4fb05d670ce8483eb49610578c84960a343dc56c6b5743a78/image.jpeg" 200 259.8ms
+
+Started GET "/attachments/6ec46dc7bf6689c1b32cf8b4e5cac673b299194d/store/fill/100/100/42a698064c51e485203d3805342dece40a0583b56b21a696a47c421d01bc/image.jpeg" for 125.4.186.104 at 2021-03-10 00:46:08 +0000
+Cannot render console from 125.4.186.104! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Refile::App: [2021-03-10 00:46:08 +0000] GET "/7b7cf05eeefa03b08b30c537bfed744574e97c05/store/fill/100/100/6c68d4555ea4f5fbe3a14f42e4db227ee81a6e2be38a632635c6101416b3/image.jpeg" 200 253.8ms
+
+Refile::App: [2021-03-10 00:46:08 +0000] GET "/dc21ecae0bfb58f784fd4127aa1f5352a5027c4f/store/fill/100/100/d6219bbd83a828b5d006215b8f0a3d32c7c8a5753114bb6fd9f80ed01fe2/image.jpeg" 200 227.2ms
+
+Refile::App: [2021-03-10 00:46:08 +0000] GET "/3eb51228653c65362f06df63ad714bba415ce503/store/fill/100/100/66f0e92806d907e2f4cef05a651c028f4cd649d3049e19862d6c3541e2ca/image.jpeg" 200 226.7ms
+
+Refile::App: [2021-03-10 00:46:08 +0000] GET "/bdc6334505f2034d6e32f154ec772ed76010e806/store/fill/100/100/01e597bc4fb895aa9d458931a2d5e4707768ec4013dff96fd0366edd712d/image.jpeg" 200 145.7ms
+
+Refile::App: [2021-03-10 00:46:08 +0000] GET "/6ec46dc7bf6689c1b32cf8b4e5cac673b299194d/store/fill/100/100/42a698064c51e485203d3805342dece40a0583b56b21a696a47c421d01bc/image.jpeg" 200 134.2ms
+
+Started GET "/" for 160.86.229.77 at 2021-03-10 04:09:41 +0000
+Cannot render console from 160.86.229.77! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/railties-5.2.4.5/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/railties-5.2.4.5/lib/rails/templates/rails/welcome/index.html.erb (3.0ms)
+Completed 200 OK in 15ms (Views: 9.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/todolists/1" for 160.86.229.77 at 2021-03-10 04:09:52 +0000
+Cannot render console from 160.86.229.77! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by TodolistsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mList Load (0.2ms)[0m  [1m[34mSELECT  "lists".* FROM "lists" WHERE "lists"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering todolists/show.html.erb within layouts/application
+  Rendered todolists/show.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 275ms (Views: 253.1ms | ActiveRecord: 1.6ms)
+
+
+Started GET "/todolists/1" for 160.86.229.77 at 2021-03-10 04:09:54 +0000
+Cannot render console from 160.86.229.77! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by TodolistsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mList Load (1.3ms)[0m  [1m[34mSELECT  "lists".* FROM "lists" WHERE "lists"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering todolists/show.html.erb within layouts/application
+  Rendered todolists/show.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 36ms (Views: 32.6ms | ActiveRecord: 1.3ms)
+
+
+Started GET "/todolists/3" for 160.86.229.77 at 2021-03-10 04:10:09 +0000
+Cannot render console from 160.86.229.77! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by TodolistsController#show as HTML
+  Parameters: {"id"=>"3"}
+  [1m[36mList Load (0.1ms)[0m  [1m[34mSELECT  "lists".* FROM "lists" WHERE "lists"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  Rendering todolists/show.html.erb within layouts/application
+  Rendered todolists/show.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 29ms (Views: 26.6ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/attachments/c8bb151383e244fe34e6905485eb751407472785/store/fill/300/300/bdda8661dd5556fdda3a1c4fa9c9f9f0b591a0f595e628a242f736daa495/image.jpeg" for 160.86.229.77 at 2021-03-10 04:10:10 +0000
+Cannot render console from 160.86.229.77! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Refile::App: [2021-03-10 04:10:10 +0000] GET "/c8bb151383e244fe34e6905485eb751407472785/store/fill/300/300/bdda8661dd5556fdda3a1c4fa9c9f9f0b591a0f595e628a242f736daa495/image.jpeg" 200 117.7ms
+
+Started GET "/todolists/4" for 160.86.229.77 at 2021-03-10 04:11:07 +0000
+Cannot render console from 160.86.229.77! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by TodolistsController#show as HTML
+  Parameters: {"id"=>"4"}
+  [1m[36mList Load (0.1ms)[0m  [1m[34mSELECT  "lists".* FROM "lists" WHERE "lists"."id" = ? LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  Rendering todolists/show.html.erb within layouts/application
+  Rendered todolists/show.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 31ms (Views: 28.2ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/attachments/d603748a010d6e2d4bd65e1a47a41c57a2c2aa06/store/fill/300/300/0a301292a93363de4f4fe905d446f96d5f567308df5b0da9f9c6ec8a5d42/image.jpeg" for 160.86.229.77 at 2021-03-10 04:11:07 +0000
+Cannot render console from 160.86.229.77! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Refile::App: [2021-03-10 04:11:07 +0000] GET "/d603748a010d6e2d4bd65e1a47a41c57a2c2aa06/store/fill/300/300/0a301292a93363de4f4fe905d446f96d5f567308df5b0da9f9c6ec8a5d42/image.jpeg" 200 57.5ms
+
+Started GET "/todolists/4" for 160.86.229.77 at 2021-03-10 04:11:34 +0000
+Cannot render console from 160.86.229.77! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by TodolistsController#show as HTML
+  Parameters: {"id"=>"4"}
+  [1m[36mList Load (0.1ms)[0m  [1m[34mSELECT  "lists".* FROM "lists" WHERE "lists"."id" = ? LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  Rendering todolists/show.html.erb within layouts/application
+  Rendered todolists/show.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 61ms (Views: 58.7ms | ActiveRecord: 0.1ms)
+
+
+Started DELETE "/todolists/4" for 160.86.229.77 at 2021-03-10 04:11:46 +0000
+Cannot render console from 160.86.229.77! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  
+AbstractController::ActionNotFound (The action 'destroy' could not be found for TodolistsController):
+  
+actionpack (5.2.4.5) lib/abstract_controller/base.rb:129:in `process'
+actionview (5.2.4.5) lib/action_view/rendering.rb:32:in `process'
+actionpack (5.2.4.5) lib/action_controller/metal.rb:191:in `dispatch'
+actionpack (5.2.4.5) lib/action_controller/metal.rb:252:in `dispatch'
+actionpack (5.2.4.5) lib/action_dispatch/routing/route_set.rb:52:in `dispatch'
+actionpack (5.2.4.5) lib/action_dispatch/routing/route_set.rb:34:in `serve'
+actionpack (5.2.4.5) lib/action_dispatch/journey/router.rb:52:in `block in serve'
+actionpack (5.2.4.5) lib/action_dispatch/journey/router.rb:35:in `each'
+actionpack (5.2.4.5) lib/action_dispatch/journey/router.rb:35:in `serve'
+actionpack (5.2.4.5) lib/action_dispatch/routing/route_set.rb:840:in `call'
+rack (2.2.3) lib/rack/tempfile_reaper.rb:15:in `call'
+rack (2.2.3) lib/rack/etag.rb:27:in `call'
+rack (2.2.3) lib/rack/conditional_get.rb:40:in `call'
+rack (2.2.3) lib/rack/head.rb:12:in `call'
+actionpack (5.2.4.5) lib/action_dispatch/http/content_security_policy.rb:18:in `call'
+rack (2.2.3) lib/rack/session/abstract/id.rb:266:in `context'
+rack (2.2.3) lib/rack/session/abstract/id.rb:260:in `call'
+actionpack (5.2.4.5) lib/action_dispatch/middleware/cookies.rb:670:in `call'
+activerecord (5.2.4.5) lib/active_record/migration.rb:559:in `call'
+actionpack (5.2.4.5) lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+activesupport (5.2.4.5) lib/active_support/callbacks.rb:98:in `run_callbacks'
+actionpack (5.2.4.5) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (5.2.4.5) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.4.5) lib/action_dispatch/middleware/debug_exceptions.rb:61:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:22:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.4.5) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.4.5) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.4.5) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.4.5) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.4.5) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.4.5) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.4.5) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.4.5) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.4.5) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.4.5) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.4.5) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.4.5) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+railties (5.2.4.5) lib/rails/engine.rb:524:in `call'
+puma (3.12.6) lib/puma/configuration.rb:227:in `call'
+puma (3.12.6) lib/puma/server.rb:706:in `handle_request'
+puma (3.12.6) lib/puma/server.rb:476:in `process_client'
+puma (3.12.6) lib/puma/server.rb:334:in `block in run'
+puma (3.12.6) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started GET "/todolists/1" for 160.86.229.77 at 2021-03-10 04:12:04 +0000
+Cannot render console from 160.86.229.77! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by TodolistsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mList Load (0.1ms)[0m  [1m[34mSELECT  "lists".* FROM "lists" WHERE "lists"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering todolists/show.html.erb within layouts/application
+  Rendered todolists/show.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 31ms (Views: 28.2ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/todolists/3" for 160.86.229.77 at 2021-03-10 04:12:11 +0000
+Cannot render console from 160.86.229.77! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by TodolistsController#show as HTML
+  Parameters: {"id"=>"3"}
+  [1m[36mList Load (0.1ms)[0m  [1m[34mSELECT  "lists".* FROM "lists" WHERE "lists"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  Rendering todolists/show.html.erb within layouts/application
+  Rendered todolists/show.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 27ms (Views: 24.3ms | ActiveRecord: 0.1ms)
+
+
+Started DELETE "/todolists/3" for 160.86.229.77 at 2021-03-10 04:12:26 +0000
+Cannot render console from 160.86.229.77! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  
+AbstractController::ActionNotFound (The action 'destroy' could not be found for TodolistsController):
+  
+actionpack (5.2.4.5) lib/abstract_controller/base.rb:129:in `process'
+actionview (5.2.4.5) lib/action_view/rendering.rb:32:in `process'
+actionpack (5.2.4.5) lib/action_controller/metal.rb:191:in `dispatch'
+actionpack (5.2.4.5) lib/action_controller/metal.rb:252:in `dispatch'
+actionpack (5.2.4.5) lib/action_dispatch/routing/route_set.rb:52:in `dispatch'
+actionpack (5.2.4.5) lib/action_dispatch/routing/route_set.rb:34:in `serve'
+actionpack (5.2.4.5) lib/action_dispatch/journey/router.rb:52:in `block in serve'
+actionpack (5.2.4.5) lib/action_dispatch/journey/router.rb:35:in `each'
+actionpack (5.2.4.5) lib/action_dispatch/journey/router.rb:35:in `serve'
+actionpack (5.2.4.5) lib/action_dispatch/routing/route_set.rb:840:in `call'
+rack (2.2.3) lib/rack/tempfile_reaper.rb:15:in `call'
+rack (2.2.3) lib/rack/etag.rb:27:in `call'
+rack (2.2.3) lib/rack/conditional_get.rb:40:in `call'
+rack (2.2.3) lib/rack/head.rb:12:in `call'
+actionpack (5.2.4.5) lib/action_dispatch/http/content_security_policy.rb:18:in `call'
+rack (2.2.3) lib/rack/session/abstract/id.rb:266:in `context'
+rack (2.2.3) lib/rack/session/abstract/id.rb:260:in `call'
+actionpack (5.2.4.5) lib/action_dispatch/middleware/cookies.rb:670:in `call'
+activerecord (5.2.4.5) lib/active_record/migration.rb:559:in `call'
+actionpack (5.2.4.5) lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+activesupport (5.2.4.5) lib/active_support/callbacks.rb:98:in `run_callbacks'
+actionpack (5.2.4.5) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (5.2.4.5) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.4.5) lib/action_dispatch/middleware/debug_exceptions.rb:61:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:22:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.4.5) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.4.5) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.4.5) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.4.5) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.4.5) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.4.5) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.4.5) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.4.5) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.4.5) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.4.5) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.4.5) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.4.5) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+railties (5.2.4.5) lib/rails/engine.rb:524:in `call'
+puma (3.12.6) lib/puma/configuration.rb:227:in `call'
+puma (3.12.6) lib/puma/server.rb:706:in `handle_request'
+puma (3.12.6) lib/puma/server.rb:476:in `process_client'
+puma (3.12.6) lib/puma/server.rb:334:in `block in run'
+puma (3.12.6) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started GET "/todolists/1" for 160.86.229.77 at 2021-03-10 04:12:51 +0000
+Cannot render console from 160.86.229.77! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by TodolistsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mList Load (0.2ms)[0m  [1m[34mSELECT  "lists".* FROM "lists" WHERE "lists"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering todolists/show.html.erb within layouts/application
+  Rendered todolists/show.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 57ms (Views: 40.4ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/todolists/3" for 160.86.229.77 at 2021-03-10 04:12:54 +0000
+Cannot render console from 160.86.229.77! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by TodolistsController#show as HTML
+  Parameters: {"id"=>"3"}
+  [1m[36mList Load (0.1ms)[0m  [1m[34mSELECT  "lists".* FROM "lists" WHERE "lists"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  Rendering todolists/show.html.erb within layouts/application
+  Rendered todolists/show.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 30ms (Views: 27.3ms | ActiveRecord: 0.1ms)
+
+
+Started DELETE "/todolists/3" for 160.86.229.77 at 2021-03-10 04:12:59 +0000
+Cannot render console from 160.86.229.77! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  
+AbstractController::ActionNotFound (The action 'destroy' could not be found for TodolistsController):
+  
+actionpack (5.2.4.5) lib/abstract_controller/base.rb:129:in `process'
+actionview (5.2.4.5) lib/action_view/rendering.rb:32:in `process'
+actionpack (5.2.4.5) lib/action_controller/metal.rb:191:in `dispatch'
+actionpack (5.2.4.5) lib/action_controller/metal.rb:252:in `dispatch'
+actionpack (5.2.4.5) lib/action_dispatch/routing/route_set.rb:52:in `dispatch'
+actionpack (5.2.4.5) lib/action_dispatch/routing/route_set.rb:34:in `serve'
+actionpack (5.2.4.5) lib/action_dispatch/journey/router.rb:52:in `block in serve'
+actionpack (5.2.4.5) lib/action_dispatch/journey/router.rb:35:in `each'
+actionpack (5.2.4.5) lib/action_dispatch/journey/router.rb:35:in `serve'
+actionpack (5.2.4.5) lib/action_dispatch/routing/route_set.rb:840:in `call'
+rack (2.2.3) lib/rack/tempfile_reaper.rb:15:in `call'
+rack (2.2.3) lib/rack/etag.rb:27:in `call'
+rack (2.2.3) lib/rack/conditional_get.rb:40:in `call'
+rack (2.2.3) lib/rack/head.rb:12:in `call'
+actionpack (5.2.4.5) lib/action_dispatch/http/content_security_policy.rb:18:in `call'
+rack (2.2.3) lib/rack/session/abstract/id.rb:266:in `context'
+rack (2.2.3) lib/rack/session/abstract/id.rb:260:in `call'
+actionpack (5.2.4.5) lib/action_dispatch/middleware/cookies.rb:670:in `call'
+activerecord (5.2.4.5) lib/active_record/migration.rb:559:in `call'
+actionpack (5.2.4.5) lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+activesupport (5.2.4.5) lib/active_support/callbacks.rb:98:in `run_callbacks'
+actionpack (5.2.4.5) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (5.2.4.5) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.4.5) lib/action_dispatch/middleware/debug_exceptions.rb:61:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:22:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.4.5) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.4.5) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.4.5) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.4.5) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.4.5) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.4.5) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.4.5) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.4.5) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.4.5) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.4.5) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.4.5) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.4.5) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+railties (5.2.4.5) lib/rails/engine.rb:524:in `call'
+puma (3.12.6) lib/puma/configuration.rb:227:in `call'
+puma (3.12.6) lib/puma/server.rb:706:in `handle_request'
+puma (3.12.6) lib/puma/server.rb:476:in `process_client'
+puma (3.12.6) lib/puma/server.rb:334:in `block in run'
+puma (3.12.6) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started GET "/todolists/3" for 160.86.229.77 at 2021-03-10 04:13:26 +0000
+Cannot render console from 160.86.229.77! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by TodolistsController#show as HTML
+  Parameters: {"id"=>"3"}
+  [1m[36mList Load (0.1ms)[0m  [1m[34mSELECT  "lists".* FROM "lists" WHERE "lists"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  Rendering todolists/show.html.erb within layouts/application
+  Rendered todolists/show.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 35ms (Views: 25.8ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/todolists/3" for 160.86.229.77 at 2021-03-10 04:13:29 +0000
+Cannot render console from 160.86.229.77! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by TodolistsController#show as HTML
+  Parameters: {"id"=>"3"}
+  [1m[36mList Load (0.1ms)[0m  [1m[34mSELECT  "lists".* FROM "lists" WHERE "lists"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  Rendering todolists/show.html.erb within layouts/application
+  Rendered todolists/show.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 27ms (Views: 24.6ms | ActiveRecord: 0.1ms)
+
+
+Started DELETE "/todolists/3" for 160.86.229.77 at 2021-03-10 04:13:32 +0000
+Cannot render console from 160.86.229.77! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by TodolistsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"kAk3RWbUOAPlgZizSbsk1lbgMKq5MgGjffQKWMgP9v0Q1V9qtgAbq8h3vQhLhThhOD28rIfNDo/W64qYJcCXbw==", "id"=>"3"}
+  [1m[36mList Load (0.1ms)[0m  [1m[34mSELECT  "lists".* FROM "lists" WHERE "lists"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+Completed 500 Internal Server Error in 7ms (ActiveRecord: 0.1ms)
+
+
+  
+NoMethodError (undefined method `destory' for #<List:0x0000000006915fb8>
+Did you mean?  destroy):
+  
+app/controllers/todolists_controller.rb:35:in `destroy'
+Started GET "/todolists/3" for 160.86.229.77 at 2021-03-10 04:14:07 +0000
+Cannot render console from 160.86.229.77! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by TodolistsController#show as HTML
+  Parameters: {"id"=>"3"}
+  [1m[36mList Load (0.1ms)[0m  [1m[34mSELECT  "lists".* FROM "lists" WHERE "lists"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  Rendering todolists/show.html.erb within layouts/application
+  Rendered todolists/show.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 35ms (Views: 25.1ms | ActiveRecord: 1.2ms)
+
+
+Started DELETE "/todolists/3" for 160.86.229.77 at 2021-03-10 04:14:11 +0000
+Cannot render console from 160.86.229.77! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by TodolistsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"dLrOsfCyNFh7s2LMPhMmS3miLYi6ugTfmQdssKTLy0/0ZqaeIGYX8FZFR3c8LTr8F3+hjoRFC/MyGOxwSQSq3Q==", "id"=>"3"}
+  [1m[36mList Load (0.1ms)[0m  [1m[34mSELECT  "lists".* FROM "lists" WHERE "lists"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mList Destroy (1.0ms)[0m  [1m[31mDELETE FROM "lists" WHERE "lists"."id" = ?[0m  [["id", 3]]
+  [1m[35m (5.8ms)[0m  [1m[36mcommit transaction[0m
+Redirected to https://ab3eaf4b819e4984b1848d50080554b8.vfs.cloud9.us-east-1.amazonaws.com/todolists
+Completed 302 Found in 12ms (ActiveRecord: 7.0ms)
+
+
+Started GET "/todolists" for 160.86.229.77 at 2021-03-10 04:14:12 +0000
+Cannot render console from 160.86.229.77! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by TodolistsController#index as HTML
+  Rendering todolists/index.html.erb within layouts/application
+  [1m[36mList Load (0.2ms)[0m  [1m[34mSELECT "lists".* FROM "lists"[0m
+  Rendered todolists/index.html.erb within layouts/application (6.8ms)
+Completed 200 OK in 33ms (Views: 31.1ms | ActiveRecord: 0.2ms)
+
+
